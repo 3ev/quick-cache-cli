@@ -7,7 +7,7 @@ Wordpress [Quick Cache](https://wordpress.org/plugins/quick-cache/) plugin for [
 See the information on installing [Community Packages](https://github.com/wp-cli/wp-cli/wiki/Community-Packages)
 on the WP CLI wiki.
 
-**Note:** This plugin is currently available on Packagist, so you don't need to
+**Note:** This plugin is currently available on Packagist as `3ev/quick-cache-cli`, so you don't need to
 add the WP CLI package repository to use it.
 
 ## Available commands

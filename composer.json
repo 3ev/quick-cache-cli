@@ -1,5 +1,5 @@
 {
-    "name": "tev/quick-cache-cli",
+    "name": "3ev/quick-cache-cli",
     "type": "command",
     "description": "Provide a CLI interface to the Quick Cache Wordpress plugin",
     "keywords": ["wp-cli", "quick-cache", "cache", "cli", "wordpress"],
