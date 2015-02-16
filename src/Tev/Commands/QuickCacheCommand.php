@@ -15,8 +15,11 @@ class QuickCacheCommand extends WP_CLI_Command
      */
     public function clear($args = array(), $assoc_args = array())
     {
-        $wiped = quick_cache::wipe();
-
-        WP_CLI::success("$wiped file(s) were cleared from the cache.");
+        if (defined('WP_CACHE') && WP_CACHE && class_exists('\quick_cache')) {
+            $wiped = quick_cache::wipe();
+            WP_CLI::success("$wiped file(s) were cleared from the cache.");
+        } else {
+            WP_CLI::warning('Quick Cache is not installed or enabled');
+        }
     }
 }
