@@ -2,6 +2,9 @@
 
 Wordpress [Quick Cache](https://wordpress.org/plugins/quick-cache/) plugin for [WP CLI](http://wp-cli.org/).
 
+If you're looking for a plugin for the successor to Quick Cache, [ZenCache](http://zencache.com/),
+see https://github.com/3ev/zencache-cli.
+
 ## Installation
 
 See the information on installing [Community Packages](https://github.com/wp-cli/wp-cli/wiki/Community-Packages)
